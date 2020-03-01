@@ -5,7 +5,6 @@
 h1{
   text-decoration: underline;
   text-transform: uppercase;
-  padding: 50px 50px;
   text-align: center;
   }
   .responsive {
@@ -15,4 +14,22 @@ h1{
   .content {
     padding-top: 70px;
   }
-  </style>
+
+  .mobile-container {
+    max-width: 480px;
+    margin: auto;
+    background-color: #555;
+    height: 500px;
+    color: white;
+    border-radius: 10px;
+  }
+  #footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 15px 10px;
+    font-family: verdana;
+    font-size: 18px;
+    }
+</style>
